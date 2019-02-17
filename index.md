@@ -10,3 +10,9 @@
 #### # Git Learning
 
 [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
+
+#### # Powershell Learning
+
+
+[http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html](
+http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html)
