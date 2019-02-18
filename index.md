@@ -12,7 +12,10 @@
 [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
 
 #### # Powershell Learning
+[http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html](http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html)
 
+#### # Ansible Learning
 
-[http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html](
-http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html)
+* Ansible setup on Windows 10 - WSL (ubuntu)  
+
+[https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
