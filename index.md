@@ -11,6 +11,10 @@
 
 [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
 
+```bash
+git log --all --decorate --oneline --graph
+```
+
 #### # Powershell Learning
 [http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html](http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html)
 
