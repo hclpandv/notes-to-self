@@ -7,6 +7,6 @@ https://www.planmyinterior.com/
 https://hometriangle.com/   
 http://www.mgmkitchens.in/modular-kitchen-ideas/  
 
-http://am2pmmodularkitchens.com/
+http://am2pmmodularkitchens.com/  
 http://www.regalokitchens.com/  
 
