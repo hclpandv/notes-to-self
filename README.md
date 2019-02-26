@@ -1,7 +1,7 @@
 # notes-to-self
 
 ----------------------------
-## Kamkaz
+## KamKaz
 https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
 
 
