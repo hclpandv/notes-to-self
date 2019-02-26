@@ -1,5 +1,13 @@
 # notes-to-self
 
+----------------------------
+## Kamkaz
+https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
+
+
+---------------------------
+## GharBar
+
 https://www.livspace.com/custom-modular-kitchens
 
 https://www.marksdzyn.com/  
