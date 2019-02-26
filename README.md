@@ -3,6 +3,7 @@
 ----------------------------
 ## KamKaz
 https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
+https://hollyit.net/blog/windowsvagrantwinnfsd-without-file-update-problems  
 
 
 ---------------------------
