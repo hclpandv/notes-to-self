@@ -11,6 +11,8 @@ https://github.com/Microsoft/windows-dev-box-setup-scripts/blob/master/scripts/W
 
 ![image](https://user-images.githubusercontent.com/13016162/53466243-3cf94880-3a77-11e9-9c73-134aa04928bf.png)
 
+![image](https://user-images.githubusercontent.com/13016162/53471541-07f6f100-3a8b-11e9-936d-6414ae7059bf.png)
+
 
 ---------------------------
 ## GharBar
