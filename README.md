@@ -22,7 +22,22 @@ https://www.livspace.com/custom-modular-kitchens
 
 Amount Paid | Date | Description 
 --- | --- | --- |
-Seconds | 301 | Hello |
+51,000 |  | Hello |
+
+
+Payments   |	Date     |	  Ammount    |	Method     |
+---        |    ---    |      ----     |    ---      |
+Token	     | 19-Jan-19 |     51,000    |	Cheque     |
+Bayana	   | 26-Jan-19 |    3,49,000	 | Cheque      |
+Cash2Sachin| 01-Feb-19 |	  1,60,000	 | Cash + IMPS |
+ToSubir	   | 27-Feb-19 |  	9,70,000	 | Cheque      |
+
+
+Token
+Bayana
+Cash2Sachin
+ToSubir
+TM DD
 
 https://www.marksdzyn.com/  
 https://www.planmyinterior.com/  
