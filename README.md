@@ -30,7 +30,7 @@ ToSubir	   | 27-Feb-19 |  	9,70,000	 | Cheque      |
 ---         |       ---               |
 Total Deal  |     40,30,000           |
 Total Paid  |     15,30,000           |
-**Balance amt |     25,00,000**       |
+**Balance amt** |     **25,00,000**       |
 Paid b4 TM  |     15,00,000           |
 b4 Regsitry |     25,00,000           |
 
