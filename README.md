@@ -26,6 +26,7 @@ Bayana	   | 26-Jan-19 |    3,49,000	 | Cheque      |
 Cash2Sachin| 01-Feb-19 |	  1,60,000	 | Cash + IMPS |
 ToSubir	   | 27-Feb-19 |  	9,70,000	 | Cheque      |
 
+            |                         |
 ---         |       ---               |
 Total Deal  |     40,30,000           |
 Total Paid  |     15,30,000           |
