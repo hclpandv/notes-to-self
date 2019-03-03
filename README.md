@@ -28,3 +28,7 @@ http://am2pmmodularkitchens.com/
 http://www.regalokitchens.com/  
 
 http://www.shabadinteriors.com/our-services.php
+
+* for flooring and window blinds
+http://www.interiorsolutions.co/contact-us.html
+
