@@ -14,6 +14,12 @@ https://github.com/Microsoft/windows-dev-box-setup-scripts/blob/master/scripts/W
 ![image](https://user-images.githubusercontent.com/13016162/53471541-07f6f100-3a8b-11e9-936d-6414ae7059bf.png)
 
 
+  Test Case      |                                    Result                                                                   |
+  ---                |                                                                        ---                                     |
+Without NFS  | 60 Milliseconds - 70 Milliseconds (web resp from home page load)     |
+With NFS        | 30 Milliseconds - 40 Milliseconds (web resp from home page load)    |
+
+
 ---------------------------
 ## GharBar
 
