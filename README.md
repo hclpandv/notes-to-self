@@ -19,6 +19,9 @@ https://github.com/Microsoft/windows-dev-box-setup-scripts/blob/master/scripts/W
 Without NFS  | 60 Milliseconds - 70 Milliseconds (web resp from home page load)     |
 With NFS        | 30 Milliseconds - 40 Milliseconds (web resp from home page load)    |
 
+* Solr and New Relic
+https://docs.newrelic.com/docs/insights/insights-api/get-data/query-insights-event-data-api
+
 
 ---------------------------
 ## GharBar
