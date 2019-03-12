@@ -27,6 +27,9 @@ https://docs.newrelic.com/docs/insights/insights-api/get-data/query-insights-eve
 https://url-to-pdf-api.herokuapp.com/api/render?url=http://hclpandv.github.io/online-cv/&pdf.format=a4&pdf.landscape=true&pdf.pageRanges=1-2&pdf.margin.top=0.5cm
 ```
 
+### QA Integration
+https://humanwhocodes.com/blog/2015/10/triggering-jenkins-builds-by-url/
+
 ---------------------------
 ## GharBar
 
