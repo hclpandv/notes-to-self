@@ -22,6 +22,11 @@ With NFS        | 30 Milliseconds - 40 Milliseconds (web resp from home page loa
 * Solr and New Relic
 https://docs.newrelic.com/docs/insights/insights-api/get-data/query-insights-event-data-api
 
+* SSL Ceritificates
+
+https://www.entrust.com/wp-content/uploads/2014/11/Six-Steps-SSL-Management-WEB-Nov15.pdf
+https://community.digicert.com/en/blogs.entry.html/2014/08/11/types-of-ssl-certificateschoose-the-right-one.html
+
 ### pdf convert API
 ```
 https://url-to-pdf-api.herokuapp.com/api/render?url=http://hclpandv.github.io/online-cv/&pdf.format=a4&pdf.landscape=true&pdf.pageRanges=1-2&pdf.margin.top=0.5cm
