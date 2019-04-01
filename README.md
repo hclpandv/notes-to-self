@@ -37,7 +37,8 @@ https://humanwhocodes.com/blog/2015/10/triggering-jenkins-builds-by-url/
 
 
 #### postfix on ubuntu
-https://www.youtube.com/watch?v=yHUigLSmGOE
+https://www.youtube.com/watch?v=yHUigLSmGOE  
+https://docs.aws.amazon.com/ses/latest/DeveloperGuide/postfix.html  
 
 ---------------------------
 ## GharBar
