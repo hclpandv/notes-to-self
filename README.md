@@ -35,6 +35,10 @@ https://url-to-pdf-api.herokuapp.com/api/render?url=http://hclpandv.github.io/on
 ### QA Integration
 https://humanwhocodes.com/blog/2015/10/triggering-jenkins-builds-by-url/
 
+
+#### postfix on ubuntu
+https://www.youtube.com/watch?v=yHUigLSmGOE
+
 ---------------------------
 ## GharBar
 
