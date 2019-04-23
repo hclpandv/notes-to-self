@@ -2,6 +2,12 @@
 
 ----------------------------
 ## KamKaz
+
+##### CI/CD AzureDevOps
+https://www.adcisolutions.com/knowledge/continuous-integration-drupal-8-and-gitlab-cicd
+https://www.valentinog.com/blog/drupal-ci/
+
+----------------------------------
 https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
 http://docs.drupalvm.com/en/latest/other/performance/  
 https://hollyit.net/blog/windowsvagrantwinnfsd-without-file-update-problems  
