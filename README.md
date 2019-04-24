@@ -4,8 +4,11 @@
 ## KamKaz
 
 ##### CI/CD AzureDevOps
-https://www.adcisolutions.com/knowledge/continuous-integration-drupal-8-and-gitlab-cicd
-https://www.valentinog.com/blog/drupal-ci/
+https://www.adcisolutions.com/knowledge/continuous-integration-drupal-8-and-gitlab-cicd  
+https://www.valentinog.com/blog/drupal-ci/  
+
+#### Artifacts
+https://www.azuredevopslabs.com/labs/vstsextend/ansible/  
 
 ----------------------------------
 https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
