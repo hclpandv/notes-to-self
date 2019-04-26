@@ -18,7 +18,7 @@ https://marketplace.visualstudio.com/items?itemName=qetza.replacetokens&targetId
 cd /var/www/
 sudo rm html
 sudo ln -s /home/vagrant/build-releases/277/ /var/www/html
-sudo mv /var/www/html/ /home/vagrant/release-$(date +'%Y%m%d-%H%M')
+sudo mv /var/www/html/ /home/vagrant/build-releases/release-$(date +'%Y%m%d-%H%M')
 ```
 
 ----------------------------------
