@@ -17,8 +17,14 @@ https://marketplace.visualstudio.com/items?itemName=qetza.replacetokens&targetId
 ```
 cd /var/www/
 # --- drush maintenance mode -- On --- # 
+cd /var/www/html
+# db backup
+vendor/bin/drush sql:dump --result-file=/vagrant/backups/286.sql
+# Code Backup
 sudo mv /var/www/html/ /home/vagrant/build-releases/release-$(date +'%Y%m%d-%H%M')
+# Remove symlink if exist
 sudo rm html
+# symlink pointing to new release
 sudo ln -s /home/vagrant/build-releases/277/ /var/www/html
 # --- drush maintenance mode -- Off --- #
 ```
