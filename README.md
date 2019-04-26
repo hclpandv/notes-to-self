@@ -13,6 +13,13 @@ https://www.azuredevopslabs.com/labs/vstsextend/ansible/
 #### Azure DevOps Extension
 https://marketplace.visualstudio.com/items?itemName=qetza.replacetokens&targetId=915e07e1-c4e8-4f2c-95f0-d84b8c6e497a
 
+#### Deployment via release pipeline
+```
+cd /var/www/
+sudo rm html
+sudo ln -s /home/vagrant/build-releases/277/ /var/www/html
+```
+
 ----------------------------------
 https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
 http://docs.drupalvm.com/en/latest/other/performance/  
