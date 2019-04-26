@@ -30,6 +30,10 @@ sudo rm html
 # symlink pointing to new release
 sudo ln -s /home/vagrant/build-releases/277/ /var/www/html
 # --- drush maintenance mode -- Off --- #
+
+
+##### Tips
+([ -h html ] && echo sym exists) || ([ -d html ] && echo dir exists)
 ```
 
 ----------------------------------
