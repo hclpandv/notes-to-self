@@ -8,7 +8,10 @@ https://www.adcisolutions.com/knowledge/continuous-integration-drupal-8-and-gitl
 https://www.valentinog.com/blog/drupal-ci/  
 
 #### Artifacts
-https://www.azuredevopslabs.com/labs/vstsextend/ansible/  
+https://www.azuredevopslabs.com/labs/vstsextend/ansible/ 
+
+#### Azure DevOps Extension
+https://marketplace.visualstudio.com/items?itemName=qetza.replacetokens&targetId=915e07e1-c4e8-4f2c-95f0-d84b8c6e497a
 
 ----------------------------------
 https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
