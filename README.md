@@ -16,9 +16,11 @@ https://marketplace.visualstudio.com/items?itemName=qetza.replacetokens&targetId
 #### Deployment via release pipeline
 ```
 cd /var/www/
+# --- drush maintenance mode -- On --- # 
+sudo mv /var/www/html/ /home/vagrant/build-releases/release-$(date +'%Y%m%d-%H%M')
 sudo rm html
 sudo ln -s /home/vagrant/build-releases/277/ /var/www/html
-sudo mv /var/www/html/ /home/vagrant/build-releases/release-$(date +'%Y%m%d-%H%M')
+# --- drush maintenance mode -- Off --- #
 ```
 
 ----------------------------------
