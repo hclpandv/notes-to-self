@@ -15,6 +15,9 @@ https://marketplace.visualstudio.com/items?itemName=qetza.replacetokens&targetId
 
 #### Deployment via release pipeline
 ```
+# Extract tarball from build
+cd /home/ubuntu/build-releases/
+tar -zxvf 20190426.1.tar.gz --one-top-level
 cd /var/www/
 # --- drush maintenance mode -- On --- # 
 cd /var/www/html
