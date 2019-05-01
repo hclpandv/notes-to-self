@@ -40,7 +40,11 @@ sudo ln -s /home/vagrant/build-releases/277/ /var/www/html
 ```
 
 #### nginx | webserver, reverse-proxy, loadbalancer
+* as a loadbalencer :  
 https://www.youtube.com/watch?v=v81CzSeiQjo  
+
+* as a reverse proxy for apache
+https://www.youtube.com/watch?v=qPiQXG4JrHc
 
 ----------------------------------
 https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
