@@ -3,6 +3,9 @@
 ----------------------------
 ## KamKaz
 
+#### Terraform
+https://pragmacoders.com/blog/creating-an-ec2-instance-with-terraform  
+
 ##### CI/CD AzureDevOps
 https://www.adcisolutions.com/knowledge/continuous-integration-drupal-8-and-gitlab-cicd  
 https://www.valentinog.com/blog/drupal-ci/  
