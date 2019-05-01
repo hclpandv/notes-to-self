@@ -43,7 +43,7 @@ sudo ln -s /home/vagrant/build-releases/277/ /var/www/html
 * as a loadbalencer :  
 https://www.youtube.com/watch?v=v81CzSeiQjo  
 
-* as a reverse proxy for apache
+* as a reverse proxy for apache  
 https://www.youtube.com/watch?v=qPiQXG4JrHc
 
 ----------------------------------
