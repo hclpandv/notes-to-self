@@ -39,6 +39,9 @@ sudo ln -s /home/vagrant/build-releases/277/ /var/www/html
 ([ -h html ] && echo sym exists) || ([ -d html ] && echo dir exists)
 ```
 
+#### nginx | webserver, reverse-proxy, loadbalancer
+https://www.youtube.com/watch?v=v81CzSeiQjo  
+
 ----------------------------------
 https://www.geeksareforlife.com/blog/2018/05/13/vagrant-and-nfs  
 http://docs.drupalvm.com/en/latest/other/performance/  
