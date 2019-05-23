@@ -11,6 +11,9 @@ fgrep -e"PublicationStatus" *.xml
 #### K8s
 https://kubernetes.io/blog/2019/03/15/kubernetes-setup-using-ansible-and-vagrant/
 
+#### MySql
+https://severalnines.com/resources/tutorials/mysql-replication-high-availability-tutorial  
+
 #### Terraform
 https://pragmacoders.com/blog/creating-an-ec2-instance-with-terraform  
 
