@@ -3,6 +3,11 @@
 ----------------------------
 ## KamKaz
 
+#### Random shell commands
+```
+#Look for string in all files
+fgrep -e"PublicationStatus" *.xml 
+```
 #### Terraform
 https://pragmacoders.com/blog/creating-an-ec2-instance-with-terraform  
 
