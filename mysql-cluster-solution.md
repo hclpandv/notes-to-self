@@ -8,7 +8,7 @@
 
 #### Possible Solution(s)
 
-1) Single Master - multi slave | mysql master-slave replication 
+###### 1) Single Master - multi slave | mysql master-slave replication 
 
 * Read operations can be catered seperately to balance load
 * 2-3 slave nodes can be configured as read replicas
@@ -21,7 +21,7 @@ a) aa
 b) bb  
 c) cc  
 
-2) Master-Backup Master - multi slave | mysql master-slave replication
+###### 2) Master-Backup Master - multi slave | mysql master-slave replication
 
 * Here we can have a redundant backup master which can be used duing master fail-over
 * Slave nodes will only be used as read replicas
@@ -33,7 +33,7 @@ a) aa
 b) bb  
 c) cc  
 
-3) Galera clustered master - multi slave | galera & mysql replication hybrid
+###### 3) Galera clustered master - multi slave | galera & mysql replication hybrid
 
 * Here master can be clustered using galera to avoid fail-over
 * slaves can be used as read replicas to provide further load balance between READ/WRITE
