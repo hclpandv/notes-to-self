@@ -2,7 +2,7 @@
 
 #### Requirements:
 
-* Required db has write intensive opertions
+* Required db has write intensive operations
 * HA and Loadbalance required to cater large number of requests
 * VM Instance and related resources to be optimized
 
