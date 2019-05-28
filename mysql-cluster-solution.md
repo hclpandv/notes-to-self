@@ -38,7 +38,7 @@ b) When master goes down, backup master needs to be promoted as new master
 c) slave-lag will impact data consistancy    
 d) Configuration is complex and error prone   
 
-**3) 3 database nodes in a Galera cluster **
+**3) 3 database nodes in a Galera cluster**
 
 * Here nodes will be kept in a galera cluster for HA
 * Reverse proxy to be used to balance the load on galera nodes
