@@ -23,7 +23,7 @@
 * ISUES/LIMITATIONS:  
 a) Replication is asynchronous, may result in data loss  
 b) slave-lag will impact data consistancy    
-c) Identify and manualy promote most up-to-date slave     
+c) Identify and manualy promote most up-to-date slave      
 
 **2) Master-Backup Master - multi slave | mysql master-slave replication**
 
@@ -38,7 +38,7 @@ b) When master goes down, backup master needs to be promoted as new master
 c) slave-lag will impact data consistancy    
 d) Configuration is complex and error prone   
 
-**3) 3 database nodes in a Galera cluster[RECOMMENDED SOLUTION]**
+**3) Multiple database nodes in a Galera cluster[Recommended Solution]**
 
 * Here nodes will be kept in a galera cluster for HA
 * Reverse proxy to be used to balance the load on galera nodes
@@ -47,7 +47,20 @@ d) Configuration is complex and error prone
 ![image](https://user-images.githubusercontent.com/13016162/58466408-4158fe80-8157-11e9-9510-bb3a07a303fa.png)
 
 * ISUES/LIMITATIONS:  
-a) Application should be modified to work around the [Galera Cluster limitations](http://galeracluster.com/documentation-webpages/limitations.html)    
+a) Application should be modified to work around the [Galera Cluster limitations](http://galeracluster.com/documentation-webpages/limitations.html)   
+b) Performance of a galera cluster depends on distance between nodes. (performance decreases if nodes are far from each other)  
+c) Transaction size impacts performance (large transactions should be devided into smaller chunks to support galera)   
+```sql
+# a 500,000 rows table
+mysql> UPDATE mydb.settings SET success = 1;
+```
+vs
+```bash
+(bash)$ for i in {1..500}; do \
+mysql -uuser -ppassword -e "UPDATE mydb.settings SET success = 1 WHERE success != 1 LIMIT 1000"; \
+sleep 2; \
+done
+```
 
 ###### Reasons to pick Galera Cluster over MySQL replication:
 
