@@ -49,7 +49,7 @@ d) Configuration is complex and error prone
 * ISUES/LIMITATIONS:  
 a) Application should be modified to work around the [Galera Cluster limitations](http://galeracluster.com/documentation-webpages/limitations.html)   
 b) Performance of a galera cluster depends on distance between nodes. (performance decreases if nodes are far from each other)  
-c) Transaction size impacts performance (large transactions should be devided into smaller chunks to support galera)   
+c) Transaction size impacts performance (large transactions should be divided into smaller chunks to support galera)   
 ```sql
 # a 500,000 rows table
 mysql> UPDATE mydb.settings SET success = 1;
