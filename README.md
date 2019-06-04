@@ -10,6 +10,7 @@ fgrep -e"PublicationStatus" *.xml
 ```
 #### K8s
 https://kubernetes.io/blog/2019/03/15/kubernetes-setup-using-ansible-and-vagrant/
+https://www.vikki.in/kubernetes-on-ubuntu-18-04-with-dashbaoard/
 
 #### MySql
 https://severalnines.com/resources/tutorials/mysql-replication-high-availability-tutorial  
