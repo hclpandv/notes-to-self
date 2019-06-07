@@ -5,8 +5,20 @@
 
 #### System Security
 https://blog.ssdnodes.com/blog/secure-ansible-playbook-2/  
-
-
+```bash
+# allow established sessions to receive traffic
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+# allow your application port
+iptables -I INPUT -p tcp --dport 42605 -j ACCEPT
+# allow SSH 
+iptables -I INPUT -p tcp --dport 22 -j ACCEPT
+# Allow Ping
+iptables -A INPUT -p icmp --icmp-type 0 -m state --state ESTABLISHED,RELATED -j ACCEPT
+# allow localhost 
+iptables -A INPUT -i lo -j ACCEPT
+# block everything else 
+iptables -A INPUT -j DROP
+```
 #### Random shell commands
 ```
 #Look for string in all files
