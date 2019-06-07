@@ -3,6 +3,10 @@
 ----------------------------
 ## KamKaz
 
+#### System Security
+https://blog.ssdnodes.com/blog/secure-ansible-playbook-2/  
+
+
 #### Random shell commands
 ```
 #Look for string in all files
@@ -14,6 +18,7 @@ https://www.vikki.in/kubernetes-on-ubuntu-18-04-with-dashbaoard/
 
 #### MySql
 https://severalnines.com/resources/tutorials/mysql-replication-high-availability-tutorial  
+https://planet.mysql.com/entry/?id=5988531  
 
 #### Terraform
 https://pragmacoders.com/blog/creating-an-ec2-instance-with-terraform  
