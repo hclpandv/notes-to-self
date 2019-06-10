@@ -18,6 +18,14 @@ iptables -A INPUT -p icmp --icmp-type 0 -m state --state ESTABLISHED,RELATED -j 
 iptables -A INPUT -i lo -j ACCEPT
 # block everything else 
 iptables -A INPUT -j DROP
+
+#### ansible
+- name: Disable root remote login and remove anonymous User.
+  command: 'mysql -NBe "{{ item }}"'
+  with_items:
+    - DELETE FROM mysql.user WHERE User!='{{ mysql_root_username }}' AND Host NOT IN ('localhost', '127.0.0.1', '::1')
+changed_when: false
+
 ```
 #### Random shell commands
 ```
