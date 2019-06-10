@@ -23,6 +23,16 @@ iptables -A INPUT -j DROP
 ```
 #Look for string in all files
 fgrep -e"PublicationStatus" *.xml 
+
+## issue following (command per line):
+
+git checkout master 
+git pull 
+git fetch --all
+git checkout staging
+git pull
+git checkout -B <Ticket-ID>-description-of-the-ticket
+
 ```
 #### K8s
 https://kubernetes.io/blog/2019/03/15/kubernetes-setup-using-ansible-and-vagrant/  
