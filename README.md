@@ -49,6 +49,9 @@ https://www.vikki.in/kubernetes-on-ubuntu-18-04-with-dashbaoard/
 #### MySql
 https://severalnines.com/resources/tutorials/mysql-replication-high-availability-tutorial  
 https://planet.mysql.com/entry/?id=5988531  
+`best and quick replication tutorial`
+http://mysql.wingtiplabs.com/documentation/feigirh5/establish-replication.html  
+https://lefred.be/content/master-slave-replication-with-mysql-8-0-in-2-mins/  
 
 #### Terraform
 https://pragmacoders.com/blog/creating-an-ec2-instance-with-terraform  
