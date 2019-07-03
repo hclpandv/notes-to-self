@@ -3,6 +3,10 @@
 ----------------------------
 ## KamKaz
 
+#### DNS Ansible config
+https://mangolassi.it/topic/12877/set-up-bind-server-with-ansible  
+https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04  
+
 #### System Security
 https://blog.ssdnodes.com/blog/secure-ansible-playbook-2/  
 ```bash
