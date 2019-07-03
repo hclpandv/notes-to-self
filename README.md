@@ -3,6 +3,9 @@
 ----------------------------
 ## KamKaz
 
+#### Convert any server to a docker-container
+https://zwischenzugs.com/2015/05/24/convert-any-server-to-a-docker-container/  
+
 #### DNS Ansible config
 https://mangolassi.it/topic/12877/set-up-bind-server-with-ansible  
 https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04  
