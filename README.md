@@ -6,6 +6,7 @@
 #### DNS Ansible config
 https://mangolassi.it/topic/12877/set-up-bind-server-with-ansible  
 https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04  
+https://zwischenzugs.com/2018/01/26/how-and-why-i-run-my-own-dns-servers/  
 
 #### System Security
 https://blog.ssdnodes.com/blog/secure-ansible-playbook-2/  
