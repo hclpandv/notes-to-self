@@ -11,6 +11,18 @@ https://mangolassi.it/topic/12877/set-up-bind-server-with-ansible
 https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04  
 https://zwischenzugs.com/2018/01/26/how-and-why-i-run-my-own-dns-servers/  
 
+```bash
+# enable apache2 vhost_alias module
+a2enmod vhost_alias
+```
+* entry in apache conf  
+```
+<VirtualHost>
+    UseCanonicalName off
+    VirtualDocumentRoot /var/www/%-2.0.%-1/%-3
+</VirtualHost>
+```
+
 #### System Security
 https://blog.ssdnodes.com/blog/secure-ansible-playbook-2/  
 ```bash
