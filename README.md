@@ -10,7 +10,7 @@ https://zwischenzugs.com/2015/05/24/convert-any-server-to-a-docker-container/
 https://mangolassi.it/topic/12877/set-up-bind-server-with-ansible  
 https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04  
 https://zwischenzugs.com/2018/01/26/how-and-why-i-run-my-own-dns-servers/  
-* WildCard DNS Settings + apache2 conf for Continuous Integration
+* WildCard DNS Settings + apache2 conf for Continuous Integration  
 https://debian-administration.org/article/358/Wildcard_hosting_with_Apache_and_Bind  
 ```bash
 # enable apache2 vhost_alias module
