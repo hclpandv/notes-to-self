@@ -23,6 +23,36 @@ a2enmod vhost_alias
     VirtualDocumentRoot /var/www/%-2.0.%-1/%-3
 </VirtualHost>
 ```
+* similar config in ngnix  
+```
+server {
+  listen :80;
+
+  server_name ~^(.+).domain.com$;
+
+  if ($host ~ "^(.+).domain.com$") {
+    set $site $1;
+  }
+
+  root /var/www/$site;
+  access_log /var/log/nginx/autohost.access.log combined;
+  error_log /var/log/nginx/autohost.error.log;
+
+  #more stuff
+}
+```
+```
+# [0-9].example.com -> /srv/tickets.example.com/[0-9]/app/build
+# http://nginx.org/en/docs/http/server_names.html
+
+server {
+
+    listen 80;
+    server_name "~^(?<subdomain>^\d).example.com$";
+    root /srv/tickets.example.com/$subdomain/app/build;
+
+}
+```
 
 #### System Security
 https://blog.ssdnodes.com/blog/secure-ansible-playbook-2/  
