@@ -32,6 +32,32 @@ CMD ["gunicorn", "-c", "python:config.gunicorn", "hello.app:create_app()"]
 ```
 CMD gunicorn -c "python:config.gunicorn" "hello.app:create_app()"
 ```
-* 
+* Which One Should You Use?
 
-# Ansible
+Shell form sounds better in theory, but it can mess with signal processing. It also means the shell process ends up being PID 1 instead of whatever binary you’re running in your CMD.
+
+```
+Showing what PID 1 is using both methods:
+# The output of `ps` when you use exec form:
+PID   USER     TIME   COMMAND
+  1   root     0:00   {gunicorn} /usr/local/bin/python /usr/local/bin/gunicorn
+ 15   root     0:02   {gunicorn} /usr/local/bin/python /usr/local/bin/gunicorn
+188   root     0:00   ps
+
+# The output of `ps` when you use shell form:
+PID   USER     TIME   COMMAND
+  1   root     0:00   /bin/sh -c gunicorn -c python:config.gunicorn hello.app:create_app()
+  6   root     0:00   {gunicorn} /usr/local/bin/python /usr/local/bin/gunicorn
+ 16   root     0:00   {gunicorn} /usr/local/bin/python /usr/local/bin/gunicorn
+ 29   root     0:00   ps
+```
+Docker (and I) both recommend that you use exec form whenever possible, which really is most of the time. If you need to do complicated shell scripting when a container starts, you should probably use an ENTRYPOINT script.
+
+But what about Docker Compose:
+* If you’re curious, Docker Compose appears to convert shell form into exec form by splitting your command: by spaces. I didn’t look at the source code to see if this is the full story, but I did notice that PID 1 is still gunicorn when using the custom command listed below:
+```
+    command: >
+      gunicorn --reload -c "python:config.gunicorn" "hello.app:create_app()"
+```
+* The official Docker Compose documentation says it supports the [] syntax too if you want to be more explicit. If anyone knows the exact story behind this, please leave a comment below and I’ll update the post. 
+
