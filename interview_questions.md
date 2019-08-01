@@ -18,4 +18,20 @@ ENTRYPOINT echo "Hello world"
 * COPY takes in a src and destination. It only lets you copy in a local file or directory from your host (the machine building the Docker image) into the Docker image itself.
 * ADD lets you do that too, but it also supports 2 other sources. First, you can use a URL instead of a local file / directory. Secondly, you can extract a tar file from the source directly into the destination.
 
+#### Difference between an Array and String Based CMD
+
+* The official terms for this are exec form and shell form commands. Both do nearly the same thing, but there's an important difference.
+* Using [] is considered “exec form” and the plain string command is considered "shell form"
+* Exec Form runs your CMD’s binary as is, along with any arguments you optionally pass in.
+
+```
+CMD ["gunicorn", "-c", "python:config.gunicorn", "hello.app:create_app()"]
+```
+* Shell Form runs your CMD’s binary through a shell which has the added benefit of using any shell functionality you want (such as using pipes and &&, etc.).
+
+```
+CMD gunicorn -c "python:config.gunicorn" "hello.app:create_app()"
+```
+* 
+
 # Ansible
