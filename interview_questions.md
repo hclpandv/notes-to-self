@@ -12,6 +12,9 @@ CMD echo "Hello world"
 ENTRYPOINT echo "Hello world"
 ```
 
+* Are you building dependencies into your image? Use RUN.
+* Are you launching / running your Dockerized process? Use CMD.
+
 ## Docker COPY vs ADD
 
 * COPY and ADD are both Dockerfile instructions that serve similar purposes. They let you copy files from a specific location into a Docker image.
