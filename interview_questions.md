@@ -63,4 +63,14 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 HOSTNAME=157baf151103
 HOME=/root
 ```
+## Show Total Disk Space Used by Docker
+
+* Docker has a `system` sub-command that has a few useful commands. One of them is `docker system df` which reports back disk space usage stats of your Docker installation.
+```
+TYPE	        TOTAL	    ACTIVE  	SIZE  	  RECLAIMABLE
+Images	      212	      0	        63.72GB	  63.72GB (100%)
+Containers	  0	        0	        0B	      0B
+Local Volumes	77	      0	        1.01GB	  1.01GB (100%)
+Build Cache	  0	        0	        0B	      0B
+```
 
