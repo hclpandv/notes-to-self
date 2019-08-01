@@ -53,11 +53,14 @@ PID   USER     TIME   COMMAND
 ```
 Docker (and I) both recommend that you use exec form whenever possible, which really is most of the time. If you need to do complicated shell scripting when a container starts, you should probably use an ENTRYPOINT script.
 
-But what about Docker Compose:
-* If you’re curious, Docker Compose appears to convert shell form into exec form by splitting your command: by spaces. I didn’t look at the source code to see if this is the full story, but I did notice that PID 1 is still gunicorn when using the custom command listed below:
+#### Output All of Your Container's ENV Variables
+
+```bash
+docker container run --rm alpine:3.7 env
+
+# The above command produces this output:
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+HOSTNAME=157baf151103
+HOME=/root
 ```
-    command: >
-      gunicorn --reload -c "python:config.gunicorn" "hello.app:create_app()"
-```
-* The official Docker Compose documentation says it supports the [] syntax too if you want to be more explicit. If anyone knows the exact story behind this, please leave a comment below and I’ll update the post. 
 
