@@ -3,6 +3,9 @@
 ----------------------------
 ## KamKaz
 
+#### User activity logging
+https://blog.windowsnt.lv/2011/11/15/tracking-user-activity-english/
+
 #### Convert any server to a docker-container
 https://zwischenzugs.com/2015/05/24/convert-any-server-to-a-docker-container/  
 
