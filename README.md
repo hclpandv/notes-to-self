@@ -3,6 +3,9 @@
 ----------------------------
 ## KamKaz
 
+#### Primitive learning
+https://github.com/in28minutes/CTutorialForBeginners  
+
 #### User activity logging
 https://blog.windowsnt.lv/2011/11/15/tracking-user-activity-english/
 
