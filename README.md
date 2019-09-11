@@ -4,7 +4,7 @@
 ## KamKaz
 
 #### Primitive learning
-https://github.com/in28minutes/CTutorialForBeginners 
+https://github.com/in28minutes/CTutorialForBeginners  
 http://cs-education.github.io/sys/#/lessons  
 
 #### User activity logging
