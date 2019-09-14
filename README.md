@@ -7,6 +7,7 @@
 #------Lab config | POC needed
 https://github.com/pluralsight/PS-AutoLab-Env/tree/master/Configurations  
 https://github.com/PowerShell/PowerShell/blob/master/docs/learning-powershell/powershell-beginners-guide.md  
+https://resources.oreilly.com/examples/9781771375443  
 
 #### Primitive learning
 https://github.com/in28minutes/CTutorialForBeginners  
