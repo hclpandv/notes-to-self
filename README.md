@@ -3,6 +3,11 @@
 ----------------------------
 ## KamKaz
 
+#### PowerShell training materials
+#------Lab config | POC needed
+https://github.com/pluralsight/PS-AutoLab-Env/tree/master/Configurations  
+https://github.com/PowerShell/PowerShell/blob/master/docs/learning-powershell/powershell-beginners-guide.md  
+
 #### Primitive learning
 https://github.com/in28minutes/CTutorialForBeginners  
 http://cs-education.github.io/sys/#/lessons  
