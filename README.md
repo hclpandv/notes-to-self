@@ -3,6 +3,9 @@
 ----------------------------
 ## KamKaz
 
+#### Faslty VCL reference
+https://www.integralist.co.uk/posts/fastly-varnish/#6  
+
 #### PowerShell training materials
 #------Lab config | POC needed
 https://github.com/pluralsight/PS-AutoLab-Env/tree/master/Configurations  
