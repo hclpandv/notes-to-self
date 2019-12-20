@@ -202,6 +202,26 @@ https://humanwhocodes.com/blog/2015/10/triggering-jenkins-builds-by-url/
 https://www.youtube.com/watch?v=yHUigLSmGOE  
 https://docs.aws.amazon.com/ses/latest/DeveloperGuide/postfix.html  
 
+
+### Azure cloud basic questions
+
+* How to create resources in azure
+* Availability set
+* Reserve VM
+* Resource group
+* Trafic manager
+* Azure site recovery
+* Azure DR
+* Azure network
+* Azure VPN
+* How to create vm in azure
+* How to add subnet in azure
+* Azure firewall
+* Scalability
+* How to auto start and stop azure vm
+* Azure backup
+
+
 ---------------------------
 ## GharBar
 
