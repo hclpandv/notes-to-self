@@ -2,6 +2,7 @@
 
 # Sal caculate  
 http://salaryconverter.nigelb.me/  
+https://www.numbeo.com/cost-of-living/in/Kuala-Lumpur  
 
 ----------------------------
 ## KamKaz
