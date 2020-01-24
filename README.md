@@ -1,5 +1,8 @@
 # notes-to-self
 
+# Sal caculate  
+http://salaryconverter.nigelb.me/  
+
 ----------------------------
 ## KamKaz
 
