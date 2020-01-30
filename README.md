@@ -7,6 +7,10 @@ https://www.numbeo.com/cost-of-living/in/Kuala-Lumpur
 ----------------------------
 ## KamKaz
 
+#### elk stack  
+https://qbox.io/blog/deploying-elk-stack-ansible-elasticsearch-kibana-logstash  
+https://blog.ruanbekker.com/blog/2018/11/11/setup-apm-server-on-ubuntu-for-your-elastic-stack-to-get-insights-in-your-application-performance-metrics/  
+
 #### Faslty VCL reference
 https://www.integralist.co.uk/posts/fastly-varnish/#6  
 
