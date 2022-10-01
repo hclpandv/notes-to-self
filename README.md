@@ -1,5 +1,8 @@
 # notes-to-self
 
+# terraform time
+https://stackoverflow.com/questions/61762648/terraform-azurerm-schedule-start-time-always-resets-on-new-deploys
+
 # Sal caculate  
 http://salaryconverter.nigelb.me/  
 https://www.numbeo.com/cost-of-living/in/Kuala-Lumpur  
