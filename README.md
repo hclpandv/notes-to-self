@@ -1,7 +1,8 @@
 # notes-to-self
 
 # terraform time
-https://stackoverflow.com/questions/61762648/terraform-azurerm-schedule-start-time-always-resets-on-new-deploys
+https://stackoverflow.com/questions/61762648/terraform-azurerm-schedule-start-time-always-resets-on-new-deploys  
+https://superuser.com/questions/538098/timezone-conversion-in-bash-script
 
 # Sal caculate  
 http://salaryconverter.nigelb.me/  
