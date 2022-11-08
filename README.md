@@ -1,5 +1,9 @@
 # notes-to-self
 
+# Ansible Automation Platform - custom Execution Environment
+https://www.redhat.com/sysadmin/ansible-execution-environment-unconnected  
+https://gregsowell.com/?p=7086  
+
 # terraform time
 https://stackoverflow.com/questions/61762648/terraform-azurerm-schedule-start-time-always-resets-on-new-deploys  
 https://superuser.com/questions/538098/timezone-conversion-in-bash-script
