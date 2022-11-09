@@ -4,6 +4,7 @@
 https://www.redhat.com/sysadmin/ansible-execution-environment-unconnected  
 https://gregsowell.com/?p=7086  
 `docker pull vikiregistry.azurecr.io/viki/ccoe_ee:v1`
+`IwvTCobkfHzpvkGQste1yad=mocoab8L`
 
 #### hosting AAP2 custom Execution Environment on Azure Container Registry (ACR)
 
