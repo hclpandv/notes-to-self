@@ -5,6 +5,32 @@ https://www.redhat.com/sysadmin/ansible-execution-environment-unconnected
 https://gregsowell.com/?p=7086  
 `docker pull vikiregistry.azurecr.io/viki/ccoe_ee:v1`
 
+#### hosting AAP2 custom Execution Environment on Azure Container Registry (ACR)
+
+```bash
+# Import EE container from Ansible registry into ACR
+az acr import \
+  --name vikiregistry \
+  --source registry.redhat.io/ansible-automation-platform-21/ee-29-rhel8:latest \
+  --image ee-29-rhel8:latest \
+  --username my_ansible_customer_portal_username \
+  --password my_ansible_customer_portal_password
+  
+# Create a Dockerfile and Build a new Image i.e. New EE
+az acr build --image viki/ccoe_ee:v1 \
+  --registry vikiregistry \
+  --file Dockerfile .
+
+```
+
+```dockerfile
+FROM vikiregistry.azurecr.io/ee-29-rhel8:latest
+LABEL maintainer="vikas-v.pandey@abc.com"
+COPY requirements.txt ./
+RUN pip3 install --upgrade pip setuptools
+RUN pip3 install --no-cache-dir -r requirements.txt
+```
+
 
 # terraform time
 https://stackoverflow.com/questions/61762648/terraform-azurerm-schedule-start-time-always-resets-on-new-deploys  
