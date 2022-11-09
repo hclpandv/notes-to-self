@@ -8,7 +8,7 @@ https://gregsowell.com/?p=7086
 #### hosting AAP2 custom Execution Environment on Azure Container Registry (ACR)
 
 ```bash
-# Import EE container from Ansible registry into ACR
+# Import EE container from Ansible registry into ACR (Directly run on Azure Cloud Shell)
 az acr import \
   --name vikiregistry \
   --source registry.redhat.io/ansible-automation-platform-21/ee-29-rhel8:latest \
