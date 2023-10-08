@@ -6,3 +6,9 @@
 4. Refactoring *f*
 5. Retiring *t*
 6. Retaining *t*
+
+# Deployment stragies
+
+1. Canary (small birds analogy)
+2. Blue green
+
