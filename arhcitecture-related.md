@@ -11,4 +11,5 @@
 
 1. Canary (small birds analogy)
 2. Blue green
+3. Rolling updates (one pod at a time)
 
