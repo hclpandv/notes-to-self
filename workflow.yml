@@ -1,0 +1,37 @@
+flowchart:
+  description: "🚀 Server Provisioning Workflow"
+  steps:
+    - key: takeoff
+      name: "🛫 Takeoff"
+      subtitle: "Init workflow"
+      details: "Starts orchestration. Runs: source UX.sh, takeoff."
+
+    - key: health
+      name: "🩺 Health Checks"
+      subtitle: "All integrations"
+      details: "Checks HaloPSA, Passwordstate, Zabbix, IPAM."
+
+    - key: input
+      name: "📥 Get User Input"
+      subtitle: "HaloPSA Note"
+      details: "Reads YAML from ticket note."
+
+    - key: metadata
+      name: "🧾 Build Metadata"
+      subtitle: "YQ processing"
+      details: "Transforms user YAML to tf_input.yml."
+
+    - key: secrets
+      name: "🔐 Secrets"
+      subtitle: "Passwordstate"
+      details: "Fetch/create passwords."
+
+    - key: terraform
+      name: "⚙️ Terraform"
+      subtitle: "Provision server"
+      details: "Terraform provisions infra."
+
+    - key: landing
+      name: "🛬 Landing"
+      subtitle: "Finish & report"
+      details: "Upload artifacts, close ticket."
