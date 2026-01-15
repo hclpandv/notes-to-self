@@ -1,5 +1,5 @@
 flowchart:
-  description: "Server Provisioning Workflow"
+  description: "🚀 Server Provisioning Workflow"
   steps:
     - key: takeoff
       name: "🛫 Takeoff"
