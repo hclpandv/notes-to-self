@@ -4,12 +4,28 @@ flowchart:
     - key: takeoff
       name: "🛫 Takeoff"
       subtitle: "Init workflow"
-      details: "Starts orchestration. Runs: source UX.sh, takeoff."
+      details: |
+        Starts the orchestration workflow.
+
+        Runs:
+        source UX.sh
+        takeoff
+
+        Shows flight-style UX messages.
 
     - key: health
       name: "🩺 Health Checks"
       subtitle: "All integrations"
-      details: "Checks HaloPSA, Passwordstate, Zabbix, IPAM."
+      details: |
+        Checks all APIs before doing anything:
+
+        - HaloPSA
+        - Passwordstate
+        - Zabbix
+        - IPAM
+
+        Example:
+        halopsa_healthy && engine_ok "HaloPSA"
 
     - key: input
       name: "📥 Get User Input"
